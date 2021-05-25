@@ -20,7 +20,6 @@ describe('04-date-tasks', () => {
     );
   });
 
-
   it.optional('parseDataFromIso8601 should parse ISO 8601 string into a date value', () => {
     assert.equal(
       1453219657000,
@@ -32,7 +31,6 @@ describe('04-date-tasks', () => {
       tasks.parseDataFromIso8601('2016-01-19T08:07:37Z').valueOf(),
     );
   });
-
 
   it.optional('isLeapYear should true if specified year is leap', () => {
     [
@@ -55,7 +53,6 @@ describe('04-date-tasks', () => {
       );
     });
   });
-
 
   it.optional('timeSpanToString should return the string represation of time span between two dates', () => {
     [
@@ -87,7 +84,6 @@ describe('04-date-tasks', () => {
       );
     });
   });
-
 
   it.optional('angleBetweenClockHands should returns the angle bettween clock hands for specified Greenwich datetime', () => {
     [
